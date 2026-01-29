@@ -7,7 +7,7 @@ Este projeto pediu-nos para implementar o jogo Reversi utilizando a linguagem Py
 jogar o jogo em que o jogador humano possa jogar Reversi contra o computador ou outro jogador, seguindo  corretamente as regras do jogo.
 
 ## Funcionalidades Implementadas
-- Tabuleiro 8x8
+- Tabuleiro 10x10
 - Validação de jogadas
 - Captura automática de peças
 - Interface gráfica em PyGame
@@ -24,3 +24,4 @@ O desenvolvimento deste projeto permiti-nos consolidar os conhecimentos fundamen
 - Menu inicial
 
 ## Referências Bibliográficas
+
