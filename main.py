@@ -19,8 +19,8 @@ tabuleiro = create_board()
 tamanho_celula = ALTURA_TELA // TAMANHO_TABULEIRO
 
 
-desloc_x = (LARGURA_TELA - (tamanho_celula * TAMANHO_TABULEIRO)) // 2
-desloc_y = 0  # topo da tela
+deslocamento_x = (LARGURA_TELA - (tamanho_celula * TAMANHO_TABULEIRO)) // 2
+deslocamento_y = 0  # topo da tela
 
 
 jogo_ativo = True
@@ -36,8 +36,8 @@ while jogo_ativo:
     for linha in range(TAMANHO_TABULEIRO):
         for coluna in range(TAMANHO_TABULEIRO):
            
-            x = desloc_x + coluna * tamanho_celula
-            y = desloc_y + linha * tamanho_celula
+            x = deslocamento_x + coluna * tamanho_celula
+            y = deslocamento_y + linha * tamanho_celula
 
 
             pygame.draw.rect(tela, (0, 0, 0), (x, y, tamanho_celula, tamanho_celula), 2)
@@ -64,5 +64,6 @@ while jogo_ativo:
 
 
 pygame.quit()
+
 
 
