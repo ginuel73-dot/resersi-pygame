@@ -1,6 +1,6 @@
 # game_logic.py
 
-BOARD_SIZE = 10
+BOARD_SIZE = 8
 EMPTY = 0
 BLACK = 1
 WHITE = -1
@@ -15,3 +15,4 @@ def create_board():
     board[5][4] = BLACK
     board[5][5] = WHITE
     return board
+
