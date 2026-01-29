@@ -20,5 +20,7 @@ O desenvolvimento deste projeto permiti-nos consolidar os conhecimentos fundamen
 
 
 ## Referências Bibliográficas
+https://www.escolagames.com.br/diversao/reversi
+https://www.youtube.com/results?search_query=como+fazer+o+jogo+no+pytan
 
 
