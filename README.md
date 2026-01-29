@@ -7,10 +7,7 @@ Este projeto pediu-nos para implementar o jogo Reversi utilizando a linguagem Py
 jogar o jogo em que o jogador humano possa jogar Reversi contra o computador ou outro jogador, seguindo  corretamente as regras do jogo.
 
 ## Funcionalidades Implementadas
-- Tabuleiro 10x10
-- Validação de jogadas
-- Captura automática de peças
-- Interface gráfica em PyGame
+O jogo implementa um tabuleiro de 8x8 quadrados, seguindo as regras do Reversi. Cada jogada é valida automaticamente, o sistema impede que o jogador coloque uma peça em posições não permitidas pelo do jogo. Quando uma jogada é válida, as peças adversárias são capturadas, invertendo-se para a cor do jogador que efetuou a jogada. Todo o jogo é apresentado através de uma interface gráfica desenvolvida em PyGame, que permite ver o tabuleiro e as peças em tempo real, tornando a experiência mais interativa e intuitiva.
 
 ## Estrutura do Código
 - `game_logic.py`: contém o motor do jogo (regras e validações)
@@ -20,8 +17,8 @@ jogar o jogo em que o jogador humano possa jogar Reversi contra o computador ou 
 O desenvolvimento deste projeto permiti-nos consolidar os conhecimentos fundamentais de Python e também  ter capacidade de resolver problemas de forma lógica e estruturada. A prática destes conceitos contribuiu para a compreensão da linguagem e para o desenvolvimento de boas práticas na elaboração de codigos e na programação, essenciais para projetos futuros e para a evolução enquanto programador.
 
 ## Melhorias Futuras
-- Contador de pontos visível
-- Menu inicial
+
 
 ## Referências Bibliográficas
+
 
