@@ -13,7 +13,7 @@ pygame.display.set_caption("Meu Reversi")
 
 
 TAMANHO_TABULEIRO = 10
-tabuleiro = create_board()  # garantir que create_board suporta 10x10
+tabuleiro = create_board()  
 
 
 tamanho_celula = ALTURA_TELA // TAMANHO_TABULEIRO
@@ -54,7 +54,7 @@ while jogo_ativo:
             if tabuleiro[linha][coluna] == WHITE:
                 pygame.draw.circle(
                     tela,
-                    (230, 230, 230),  # cor branca levemente cinza
+                    (230, 230, 230), 
                     (x + int(tamanho_celula * 0.5) + 1, y + int(tamanho_celula * 0.5) + 1),
                     int(tamanho_celula * 0.45)
                 )
@@ -64,4 +64,5 @@ while jogo_ativo:
 
 
 pygame.quit()
+
 
